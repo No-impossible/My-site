@@ -1,11 +1,19 @@
 "use client";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
+import GridPattern from "../ui/grid-pattern";
 
 const Hero = () => {
   return (
     <section className="bg-[#151C27] min-h-screen flex items-center px-5 py-10 md:py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 w-full">
+        <GridPattern
+          width={50}
+          height={50}
+          x={-1}
+          y={-1}
+          className="absolute inset-0 opacity-20"
+        />
         {/* Left Content */}
         <div className="flex-1 text-left">
           <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] mb-6">
