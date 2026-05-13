@@ -1,7 +1,5 @@
 import Footer from "../reusable/Footer";
-import Header from "../reusable/Header";
 import Navbar from "../reusable/Navbar";
-
 
 export default function LayoutWrapper({
   children,
@@ -9,11 +7,10 @@ export default function LayoutWrapper({
   children: React.ReactNode;
 }) {
   return (
-    <>
-      <Header />
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      {children}
+      <main className="flex-1">{children}</main>
       <Footer />
-    </>
+    </div>
   );
 }
