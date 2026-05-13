@@ -71,23 +71,14 @@ const Navbar = ({
                 <Link
                   href={item.href}
                   onClick={() => handleNavClick(item)}
-                  className="block text-sm font-medium text-[#8b949e] transition hover:text-[#58a6ff] py-2 md:py-0"
+                  className="group relative inline-block text-sm font-medium text-[#8b949e] transition-colors duration-200 hover:text-[#58a6ff] py-2 md:py-0 pb-1"
                 >
                   {item.title}
+                  {/* Sliding Underline Effect */}
+                  <span className="absolute bottom-0 left-0 h-[2px] w-0 bg-[#58a6ff] transition-[width] duration-300 ease-out group-hover:w-full" />
                 </Link>
               </li>
             ))}
-
-            {/* Optional: Add a CTA or Social Icon in Nav */}
-            <li className="hidden md:block">
-              <Link
-                href="https://github.com/nikhil-limbu"
-                target="_blank"
-                className="text-white/70 hover:text-white transition-colors"
-              >
-                <Icon icon="mdi:github" className="w-6 h-6" />
-              </Link>
-            </li>
           </ul>
         </nav>
       </div>
