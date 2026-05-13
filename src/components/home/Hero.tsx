@@ -12,7 +12,7 @@ const Hero = () => {
           height={50}
           x={-1}
           y={-1}
-          className="absolute inset-0 opacity-20"
+          className="absolute inset-0 opacity-10"
         />
         {/* Left Content */}
         <div className="flex-1 text-left">
