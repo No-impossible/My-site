@@ -10,47 +10,33 @@ interface BlogPost {
 
 const blogs: BlogPost[] = [
   {
-    title: "Production-Grade MCP Security Architecture",
+    title: "How RAG works? (clearly explained in under 2 mins)",
     description:
-      "MCP systems don't fail because teams lack awareness of security risks, but because enforcement layers are incorrectly or inconsistently implemented. This blog outlines a production-grade architecture where the LLM only suggests actions while the system enforces them...",
-    image: "/Images/work/work4.png",
-    link: "#",
+      "RAG (Retrieval-Augmented Generation) is one of the most practical ways to make LLMs smarter and more reliable. Instead of relying only on training data, it retrieves relevant external information before generating a response, making outputs more accurate and groun....",
+    image: "/Images/blog/blog1.png",
+    link: "https://www.linkedin.com/in/cody-yount/recent-activity/all/",
   },
   {
     title:
-      "Azure AI Foundry vs Copilot Studio vs Custom Architectures: How to Actually Choose the Right Agentic AI Approach",
+      "If AI writes code, what makes great engineers truly valuable now?",
     description:
-      'In the Azure ecosystem, there isn\'t a single "best" way to build AI agents, there are different levels of abstraction. Microsoft Copilot Studio offers speed and powerful out-of-the-box orchestration, especially when combined with well-designed tools and MCP integrations...',
-    image: "/Images/work/work5.png",
-    link: "#",
+      'Great engineers are no longer defined by how fast they write code, but by how deeply they understand systems, workflows, security, scalability, and business impact. AI can generate features, but it still cannot replace judgment, architecture...',
+    image: "/Images/blog/blog2.jpeg",
+    link: "https://www.linkedin.com/posts/cody-yount_most-people-know-the-tech-market-is-changing-activity-7458837064936112128-dVvB",
   },
   {
-    title: "The Fastest Python Package Manager You'll Ever Use",
+    title: "How I'd Master Claude in 5 Days ( As a Developer & AI Engineer )",
     description:
-      "uv is a modern, high-performance Python packaging tool designed to replace traditional tools like pip and virtualenv. Built with speed and simplicity in mind, uv combines dependency management, virtual environments, and package installation into a single workflow...",
-    image: "/Images/work/work10.png",
-    link: "#",
+      "Most people use Claude like a simple chatbot, but its real power appears when you treat it as a thinking partner and workflow engine. Instead of asking random questions, you set clear instructions, build reusable prompts and...",
+    image: "/Images/blog/blog03.jpeg",
+    link: "https://www.linkedin.com/in/cody-yount/recent-activity/all/",
   },
-  {
-    title:
-      "A Step-by-Step Guide to Install and Run Cloud Code for Free (Using Ollama + Qwen3Coder 30B)",
-    description:
-      "In this step-by-step guide, you'll learn how to install and run Cloud Code locally for free using Ollama and the Qwen3Coder 30B large language model on macOS. We'll walk through installing Ollama, downloading the model, and launching your own local AI coding assistant...",
-    image: "/Images/work/work6.png",
-    link: "#",
-  },
-  {
-    title: "Digital FTEs: The Rise of AI as a Workforce Unit",
-    description:
-      "FTE is a business concept, not a technology. AI agents become FTEs only when they are treated like workers: fixed cost, defined responsibility, measurable output. This is now being called Digital FTEs or FTE AI Agents. Digital FTEs excel at structured, repetitive, high-volume work...",
-    image: "/Images/work/work7.png",
-    link: "#",
-  },
+  
 ];
 
 const Blogs: React.FC = () => {
   return (
-    <div className="bg-[#121212] min-h-screen text-white py-16 px-4 sm:px-8">
+    <div className="bg-[#121212] min-h-screen text-white py-20 px-4 sm:px-8">
       <div className="max-w-5xl mx-auto">
         {/* Section Title */}
         <h2 className="text-3xl font-bold mb-12 tracking-tight uppercase">
