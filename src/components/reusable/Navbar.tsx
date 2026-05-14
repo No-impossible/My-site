@@ -71,7 +71,7 @@ const Navbar = ({
                 <Link
                   href={item.href}
                   onClick={() => handleNavClick(item)}
-                  className="group relative inline-block text-sm font-medium text-[#8b949e] transition-colors duration-200 hover:text-[#58a6ff] py-2 md:py-2"
+                  className="group relative inline-block text-sm font-medium text-gray-100 transition-colors duration-200 hover:text-[#58a6ff] py-2 md:py-2"
                 >
                   {item.title}
                   {/* Sliding Underline Effect */}
