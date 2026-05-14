@@ -26,20 +26,20 @@ export const FOOTER_DATA = {
 
 //TechnicalExpertise
 export const skills = [
-  { name: "Python & Deep Learning", level: 90, color: "#3b82f6" },
-  { name: "Computer Vision", level: 80, color: "#10b981" },
-  { name: "Cloud Services (AWS / Azure)", level: 85, color: "#a855f7" },
+  { name: "Healthcare Information Technology (HIT)", level: 92, color: "#3b82f6" },
+  { name: "AI Workflows & RAG", level: 95, color: "#10b981" },
+  { name: "Cloud Services (AWS / Azure)", level: 92, color: "#a855f7" },
   { name: "Data Engineering", level: 90, color: "#10b981" },
-  { name: "Web Development", level: 80, color: "#f59e0b" },
+  { name: "Web Development", level: 98, color: "#f59e0b" },
 ];
 
 export const radarData = [
-  { subject: "Python & Deep Learning", A: 90, fullMark: 100 },
-  { subject: "MLOps", A: 75, fullMark: 100 },
-  { subject: "Web Development", A: 80, fullMark: 100 },
-  { subject: "Cloud (AWS/Azure)", A: 85, fullMark: 100 },
+  { subject: "Healthcare Information Technology (HIT)", A: 92, fullMark: 100 },
+  { subject: "AI Workflows & RAG", A: 95, fullMark: 100 },
+  { subject: "Web Development", A: 98, fullMark: 100 },
+  { subject: "Cloud (AWS/Azure)", A: 92, fullMark: 100 },
   { subject: "Data Engineering", A: 90, fullMark: 100 },
-  { subject: "Computer Vision", A: 80, fullMark: 100 },
+  { subject: "Computer Vision", A: 90, fullMark: 100 },
 ];
 
 //about

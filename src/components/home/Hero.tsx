@@ -47,14 +47,14 @@ const Hero = () => {
 
           <div className="flex flex-row gap-4 justify-start">
             <button
-              className="bg-[#1f6feb]  hover:bg-[#0053d0] text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 ease-in-out  shadow-[0_0_15px_rgba(250,250,250,0.35)] hover:shadow-[0_0_20px_rgba(20,202,240,0.35)]"
-              onClick={() => console.log("Viewing projects...")}
+              className="bg-[#1f6feb] cursor-pointer  hover:bg-[#0053d0] text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 ease-in-out  shadow-[0_0_15px_rgba(250,250,250,0.35)] hover:shadow-[0_0_20px_rgba(20,202,240,0.35)]"
+              onClick={() => router.push("/project")}
             >
               View Projects
             </button>
             <button
-              className="border border-[#30363d] text-[#58a6ff] hover:bg-[#1f6feb] hover:text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 ease-in-out "
-              onClick={() => router.push("/project")}
+              className="border border-[#30363d] cursor-pointer text-[#58a6ff] hover:bg-[#1f6feb] hover:text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 ease-in-out "
+              onClick={() => console.log("Download Resume")}
             >
               Download Resume
             </button>

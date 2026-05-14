@@ -55,11 +55,7 @@ const PROJECTS = [
         href: "https://bombai-mty-menu.vercel.app/",
         icon: "mdi:web",
       },
-      {
-        type: "github",
-        href: "https://github.com/No-impossible/food-menu",
-        icon: "mdi:github",
-      },
+      
     ],
   },
   {
@@ -151,11 +147,7 @@ const PROJECTS = [
         href: "https://screenapp.io/",
         icon: "mdi:web",
       },
-      {
-        type: "github",
-        href: "https://github.com/No-impossible/meeting-b",
-        icon: "mdi:github",
-      },
+      
     ],
   },
 ];
