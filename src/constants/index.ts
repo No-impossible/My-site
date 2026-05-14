@@ -147,7 +147,7 @@ export const CONTACT_DATA = {
       sub: "Open to Remote & Relocation",
       icon: "solar:map-point-bold",
       color: "#22c55e",
-      href: "#",
+      href: "https://github.com/No-impossible",
     },
     {
       label: "LinkedIn",
