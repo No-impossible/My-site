@@ -21,36 +21,142 @@ const itemVariants = {
 
 const PROJECTS = [
   {
-    title: "EduTrack Nepal",
-    description: "A digital learning management platform designed for schools and colleges, featuring analytics dashboards and attendance tracking.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL"],
-    href: "#",
-    image: "/Images/work/work1.webp",
-    links: [{ type: "github", href: "#", icon: "mdi:github" }],
+    title: "AdviNOW Medical",
+    description:
+      "An AI-powered healthcare automation platform designed to improve the patient journey through digital intake systems, provider-facing workflows, clinical automation, and secure healthcare data architecture.",
+    technologies: ["React", "Node.js", "AWS", "Healthcare AI", "Automation"],
+    href: "https://advinow.com",
+    image: "/Images/work/Work6.png",
+    links: [
+      {
+        type: "website",
+        href: "https://advinow.com",
+        icon: "mdi:world-wide-web",
+      },
+    ],
+  },
+
+  {
+    title: "BombaiMTY Restaurant Platform",
+    description:
+      "A modern restaurant ordering and menu-management platform featuring category-based navigation, product cards, responsive ordering workflows, and optimized customer browsing experiences for food businesses.",
+    technologies: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "E-Commerce",
+      "Responsive UI",
+    ],
+    href: "https://bombai-mty-menu.vercel.app/",
+    image: "/Images/work/Work9.png",
+    links: [
+      {
+        type: "website",
+        href: "https://bombai-mty-menu.vercel.app/",
+        icon: "mdi:web",
+      },
+      {
+        type: "github",
+        href: "https://github.com/No-impossible/food-menu",
+        icon: "mdi:github",
+      },
+    ],
   },
   {
-    title: "Himalayan Travels",
-    description: "A modern booking experience for trekking and travel agencies with itinerary planning and payment integration.",
-    technologies: ["React", "Next.js", "Tailwind v4", "Stripe"],
-    href: "#",
-    image: "/Images/work/work2.webp",
-    links: [{ type: "website", href: "#", icon: "mdi:web" }],
+    title: "Wethr.net",
+    description:
+      "A real-time weather market analytics platform designed for prediction-market traders using live forecasting data, analytics dashboards, and rapid decision-support interfaces focused on clarity, speed, and usability.",
+    technologies: [
+      "Next.js",
+      "Node.js",
+      "PostgreSQL",
+      "Analytics",
+      "Data Visualization",
+    ],
+    href: "https://wethr.net",
+    image: "/Images/work/Work4.png",
+    links: [
+      {
+        type: "website",
+        href: "https://wethr.net",
+        icon: "mdi:web",
+      },
+    ],
   },
   {
-    title: "QuickCart Dashboard",
-    description: "Admin dashboard for an e-commerce logistics platform with shipment monitoring and inventory management.",
-    technologies: ["Next.js", "TypeScript", "Chart.js", "Docker"],
-    href: "#",
-    image: "/Images/work/work3.webp",
-    links: [{ type: "website", href: "#", icon: "mdi:world-wide-web" }],
+    title: "MediVault",
+    description:
+      "A secure healthcare platform focused on centralized medical-history management, patient record accessibility, and healthcare workflow integration. Built with a clean and modern interface emphasizing trust, accessibility, and secure healthcare data handling.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Healthcare UI",
+      "Secure Data Systems",
+    ],
+    href: "https://medivault-healthcare.vercel.app/",
+    image: "/Images/work/Work7.png",
+    links: [
+      {
+        type: "website",
+        href: "https://medivault-healthcare.vercel.app/",
+        icon: "mdi:web",
+      },
+      {
+        type: "github",
+        href: "https://github.com/No-impossible/Medivault--next-generation-patient-portal",
+        icon: "mdi:github",
+      },
+    ],
   },
+
   {
-    title: "Nepal Weather Hub",
-    description: "A real-time weather forecasting interface providing interactive maps and district-level forecasts.",
-    technologies: ["React", "TypeScript", "OpenWeather API", "Tailwind CSS"],
-    href: "#",
-    image: "/Images/work/work1.webp", // Note: You're using the same image as project 3
-    links: [{ type: "website", href: "#", icon: "mdi:web" }],
+    title: "Peerlogic AI Platform",
+    description:
+      "Built an AI-powered healthcare communication intelligence platform helping clinics and dental practices analyze patient-call workflows, operational bottlenecks, scheduling behavior, and revenue-impact insights.",
+    technologies: [
+      "Node.js",
+      "Healthcare SaaS",
+      "AI Workflows",
+      "Dashboards",
+      "Analytics",
+    ],
+    href: "https://www.peerlogic.com/",
+    image: "/Images/work/Work5.png",
+    links: [
+      {
+        type: "website",
+        href: "https://www.peerlogic.com/",
+        icon: "mdi:web",
+      },
+    ],
+  },
+
+  {
+    title: "ScreenApp",
+    description:
+      "A high-performance screen recording and intelligence platform that transforms long meetings into structured knowledge. Features AI-powered summaries, Chrome extension integration, and searchable video repositories for streamlined team collaboration.",
+    technologies: [
+      "Next.js",
+      "AI Transcription",
+      "Browser Extensions",
+      "Video Processing",
+      "SaaS Architecture",
+    ],
+    href: "https://screenapp.io/",
+    image: "/Images/work/Work10.png",
+    links: [
+      {
+        type: "website",
+        href: "https://screenapp.io/",
+        icon: "mdi:web",
+      },
+      {
+        type: "github",
+        href: "https://github.com/No-impossible/meeting-b",
+        icon: "mdi:github",
+      },
+    ],
   },
 ];
 
@@ -80,7 +186,11 @@ function ProjectCard({ item }: { item: any }) {
           <h3 className="text-2xl md:text-3xl font-black text-white leading-tight">
             {item.title}
           </h3>
-          <Link href={item.href || "#"} target="_blank" className="w-12 h-12 rounded-full bg-[#1f6feb] text-white flex items-center justify-center hover:scale-110 transition-transform">
+          <Link
+            href={item.href || "#"}
+            target="_blank"
+            className="w-12 h-12 rounded-full bg-[#1f6feb] text-white flex items-center justify-center hover:scale-110 transition-transform"
+          >
             <Icon icon="solar:arrow-right-up-linear" className="w-6 h-6" />
           </Link>
         </div>
@@ -91,14 +201,22 @@ function ProjectCard({ item }: { item: any }) {
           </p>
           <div className="flex flex-wrap gap-2 mb-6">
             {item.technologies.slice(0, 5).map((tech: string) => (
-              <span key={tech} className="px-3 py-1 text-[10px] font-mono rounded bg-white/5 text-[#58a6ff] border border-white/10">
+              <span
+                key={tech}
+                className="px-3 py-1 text-[10px] font-mono rounded bg-white/5 text-[#58a6ff] border border-white/10"
+              >
                 {tech}
               </span>
             ))}
           </div>
           <div className="flex items-center gap-3">
             {item.links?.map((link: any, idx: number) => (
-              <Link key={idx} href={link.href} target="_blank" className="p-2 rounded-full bg-white/5 hover:bg-white hover:text-black transition-all text-white border border-white/10">
+              <Link
+                key={idx}
+                href={link.href}
+                target="_blank"
+                className="p-2 rounded-full bg-white/5 hover:bg-white hover:text-black transition-all text-white border border-white/10"
+              >
                 <Icon icon={link.icon} className="w-5 h-5" />
               </Link>
             ))}
@@ -125,15 +243,22 @@ export default function Work() {
     >
       {/* Background Text */}
       <div className="absolute top-1/2 left-0 w-full overflow-hidden pointer-events-none opacity-[0.03] flex justify-center">
-        <h2 className="text-[20rem] font-black text-transparent" style={{ WebkitTextStroke: "2px white" }}>
+        <h2
+          className="text-[20rem] font-black text-transparent"
+          style={{ WebkitTextStroke: "2px white" }}
+        >
           WORKS
         </h2>
       </div>
 
       <div className="max-w-7xl mx-auto px-5 relative z-10">
         <div className="mb-20">
-          <h2 className="text-5xl md:text-7xl font-bold text-white tracking-tighter">Selected Work</h2>
-          <p className="text-[#8b949e] text-xl mt-4">A showcase of minimal aesthetics and complex logic.</p>
+          <h2 className="text-5xl md:text-7xl font-bold text-white tracking-tighter">
+            Selected Work
+          </h2>
+          <p className="text-[#8b949e] text-xl mt-4">
+            A showcase of minimal aesthetics and complex logic.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">

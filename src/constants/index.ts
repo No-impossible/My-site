@@ -2,7 +2,7 @@
 export const NAVBAR_DATA = {
   brand: {
     name: "Cody Yount",
-    href: "#home",
+    href: "/",
   },
   navItems: [
     { title: "Home", href: "/" },
@@ -45,33 +45,85 @@ export const radarData = [
 //about
 export const PROFILE_DATA = {
   name: "Cody Yount",
-  firstName: "Danial",
-  location: "Karachi, Pakistan",
+  firstName: "Cody",
+  location: "United States",
   avatarUrl: "/Images/about/profile.webp",
+
+  title:
+    "Senior Full-Stack & Backend Engineer | Healthcare, FinTech, AWS, AI/RAG & Secure Data Platforms",
+
   bio: [
-    "I don't really have many words, it's just that I love building things and solving problems. I have been exploring AI, cloud, and web development for some time now.",
-    "My journey started with learning programming basics and now I'm building projects that integrate cross platforms together with python nextjs and different stacks. The journey started with simple codes then went to writing web scrapping scripts. Now I am focusing on building full-stack applications and exploring AI/ML technologies to create innovative solutions. Automation and efficiency are my key interests.",
+    "I build secure, scalable software platforms across healthcare, fintech, SaaS, and analytics-heavy environments. My work focuses on backend architecture, cloud infrastructure, AI-enabled workflows, and building systems that teams can trust in production.",
+
+    "Over the years, I’ve worked across the full stack using React, Next.js, TypeScript, Node.js, Python, FastAPI, PostgreSQL, AWS, Docker, and CI/CD pipelines. I enjoy designing reliable APIs, structured data systems, and clean user experiences that solve real operational problems.",
+
+    "I’m especially interested in practical AI engineering, including RAG workflows, vector search, LLM-powered internal tools, and workflow automation around structured healthcare and business data. My approach is centered on usability, security, maintainability, and long-term scalability rather than hype-driven AI solutions.",
   ],
+
   skills: [
     {
-      category: "Programming Languages",
-      items: "Python, JavaScript, TypeScript",
+      category: "Frontend Development",
+      items: "React, Next.js, TypeScript, JavaScript",
     },
-    { category: "Web Development", items: "Next.js, React, Node.js" },
     {
-      category: "AI & Machine Learning",
-      items: "TensorFlow, PyTorch, OpenAI APIs",
+      category: "Backend Engineering",
+      items: "Node.js, Python, FastAPI, REST APIs, PostgreSQL",
     },
-    { category: "Cloud Platforms", items: "AWS, Azure" },
     {
-      category: "Automation tools",
-      items: "n8n, power automate flows, selenium",
+      category: "Cloud & DevOps",
+      items: "AWS, Docker, Terraform, CI/CD, Monitoring",
+    },
+    {
+      category: "AI & Data Systems",
+      items: "LLM APIs, RAG Workflows, Vector Search, pgvector, AI Automation",
+    },
+    {
+      category: "Healthcare & Secure Systems",
+      items:
+        "HIPAA-aware Workflows, PHI-sensitive Systems, Role-based Access Control, Audit Logging",
     },
   ],
+
   journey: [
-    "My journey really began with learning basic programming concepts through YouTube and a few private courses. I started with iOS app development just to pick up a skill, but since I was new to the tech world, I didn't get any real exposure to projects or jobs at that stage. Eventually, I moved toward Python and enrolled in the PIAIC AI course...",
-    "In the tech world and in life overall guidance can make a real difference. My path, however, was shaped largely by self-learning: exploring different sources, experimenting, building projects, and learning through repeated trial and error...",
-    "But the good part is that I never gave up. Throughout this journey, I met some amazing people who are excellent at what they do. They helped me understand different concepts and supported me whenever they could.",
+    "My journey started with Computer Science studies at Arizona State University, where I built a strong foundation in software engineering, backend systems, databases, and application architecture. Early on, I became interested in building systems that solve operational problems at scale.",
+
+    "I spent several years working in healthcare SaaS environments, contributing to platforms focused on clinical workflows, reporting systems, scheduling, billing, analytics, and patient operations. Those experiences taught me how important reliability, data integrity, and usability are in software that supports real-world healthcare processes.",
+
+    "Later, I worked on AI-powered healthcare and communication intelligence platforms involving backend systems, cloud deployments, operational analytics, and automation workflows. These projects deepened my expertise in secure system architecture, AI integrations, structured data pipelines, and scalable cloud infrastructure.",
+
+    "Today, I work with healthcare, fintech, and SaaS teams building secure and production-focused platforms involving full-stack engineering, AI/RAG workflows, analytics dashboards, cloud systems, and workflow automation. I focus on creating software that is maintainable, trustworthy, and designed for real operational use.",
+  ],
+
+  projects: [
+    {
+      title: "Wethr.net",
+      subtitle: "Real-Time Weather Market Analytics Platform",
+      description:
+        "A performance-focused analytics platform built for prediction-market traders using live weather data, forecasting models, and market-focused insights. Designed to transform complex weather information into fast, decision-oriented visual experiences.",
+      tech: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Analytics"],
+      image: "/Images/projects/wethr.webp",
+      source: "LinkedIn Project Screenshot",
+    },
+
+    {
+      title: "Peerlogic AI Platform",
+      subtitle: "AI-Powered Healthcare Communication Intelligence",
+      description:
+        "Built backend workflows and analytics systems for a healthcare communication platform that transformed patient-call data into operational and revenue insights for clinics and dental practices.",
+      tech: ["Node.js", "AI Workflows", "Healthcare SaaS", "Dashboards"],
+      image: "/Images/projects/peerlogic.webp",
+      source: "LinkedIn Project Screenshot",
+    },
+
+    {
+      title: "AI Secure Data Workspace",
+      subtitle: "Internal AI/RAG Workflow Platform",
+      description:
+        "A modern AI-powered internal workspace platform featuring secure document retrieval, vector search, RAG pipelines, role-based access control, and analytics dashboards for structured business data.",
+      tech: ["Next.js", "Python", "FastAPI", "pgvector", "OpenAI APIs"],
+      image: "/Images/projects/ai-workspace.webp",
+      source: "Generate screenshot using ChatGPT",
+    },
   ],
 };
 
