@@ -45,7 +45,7 @@ export const radarData = [
 //about
 export const PROFILE_DATA = {
   name: "Cody Yount",
-  firstName: "Cody",
+  firstName: "Cody Yount",
   location: "United States",
   avatarUrl: "/Images/about/profile.webp",
 
