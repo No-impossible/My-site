@@ -19,7 +19,7 @@ export function Contact() {
           {CONTACT_DATA.description}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {CONTACT_DATA.info.map((item, idx) => (
             <div key={idx} className="flex flex-col items-center group">
               {/* Circular Icon Background */}
@@ -45,11 +45,11 @@ export function Contact() {
                   : item.value}
               </Link>
 
-              {item.label === "Location" && (
+              {/* {item.label === "Location" && (
                 <span className="text-xs font-bold mt-2 text-green-400 uppercase tracking-wider">
                   Open to Remote & Relocation
                 </span>
-              )}
+              )} */}
             </div>
           ))}
         </div>

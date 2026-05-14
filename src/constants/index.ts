@@ -144,7 +144,7 @@ export const CONTACT_DATA = {
     {
       label: "Email",
       value: "codyyountred11@gmail.com",
-      sub: "For professional inquiries and collaborations",
+      sub: "For professional inquiries",
       icon: "solar:letter-bold",
       color: "#2563eb",
       href: "mailto:codyyountred11@gmail.com",
@@ -155,8 +155,16 @@ export const CONTACT_DATA = {
       sub: "Open to Remote & Relocation",
       icon: "solar:map-point-bold",
       color: "#22c55e",
-      href: "https://github.com/No-impossible",
+      href: "https://maps.app.goo.gl/HdDRJteUEfpWYTaj7",
     },
+    {
+  label: "Github",
+  value: "Connect with me through code",
+  sub: "View Profile",
+  icon: "mdi:github",
+  color: "#",
+  href: "https://github.com/No-impossible",
+},
     {
       label: "LinkedIn",
       value: "Connect with me professionally",
