@@ -17,17 +17,17 @@ const Hero = () => {
         {/* Left Content */}
         <div className="flex-1 text-left">
           <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6">
-            <span className="primary-gradient">AI Engineer</span> <br />
+            <span className="primary-gradient">Senior Full-Stack & Backend Engineer</span> <br />
             <span className="inline-block my-2">&</span> <br />
             <span className="text-[#58a6ff]">
               <Typewriter
                 options={{
                   strings: [
-                    "Cloud AI Architect",
-                    "Full-Stack Developer",
-                    "Data Engineer",
-                    "ML Engineer",
-                    "Computer Vision Expert",
+                    "Healthcare",
+                    "FinTech",
+                    "AWS",
+                    "AI/RAG",
+                    "Secure Data Platforms"
                   ],
                   autoStart: true,
                   loop: true,
@@ -39,7 +39,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-[#8b949e] text-lg md:text-xl leading-relaxed max-w-[500px] mb-10">
-            Senior Full-Stack & Backend Engineer | Healthcare, FinTech, AWS, AI/RAG & Secure Data Platforms
+            Passionate about building intelligent systems that solve real-world problems. Specialized in computer vision, deep learning, and cloud-native AI solutions.
           </p>
 
           <div className="flex flex-row gap-4 justify-start">
