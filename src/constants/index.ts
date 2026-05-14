@@ -47,7 +47,7 @@ export const PROFILE_DATA = {
   name: "Cody Yount",
   firstName: "Cody Yount",
   location: "United States",
-  avatarUrl: "/Images/about/profile.webp",
+  avatarUrl: "/Images/about/profile.png",
 
   title:
     "Senior Full-Stack & Backend Engineer | Healthcare, FinTech, AWS, AI/RAG & Secure Data Platforms",
@@ -135,15 +135,15 @@ export const CONTACT_DATA = {
   info: [
     {
       label: "Email",
-      value: "danikhurram27@gmail.com",
+      value: "codyyountred11@gmail.com",
       sub: "For professional inquiries and collaborations",
       icon: "solar:letter-bold",
       color: "#2563eb",
-      href: "mailto:danikhurram27@gmail.com",
+      href: "mailto:codyyountred11@gmail.com",
     },
     {
       label: "Location",
-      value: "Based in Karachi, Pakistan",
+      value: "United States",
       sub: "Open to Remote & Relocation",
       icon: "solar:map-point-bold",
       color: "#22c55e",
@@ -155,7 +155,7 @@ export const CONTACT_DATA = {
       sub: "View Profile",
       icon: "solar:link-bold",
       color: "#9333ea",
-      href: "https://linkedin.com/in/syeddanialkhurram",
+      href: "https://www.linkedin.com/in/cody-yount/",
     },
   ],
 };

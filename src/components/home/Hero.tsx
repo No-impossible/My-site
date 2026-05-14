@@ -39,20 +39,18 @@ const Hero = () => {
           </h1>
 
           <p className="text-[#8b949e] text-lg md:text-xl leading-relaxed max-w-[500px] mb-10">
-            Passionate about building intelligent systems that solve real-world
-            problems. Specialized in computer vision, deep learning, and
-            cloud-native AI solutions.
+            Senior Full-Stack & Backend Engineer | Healthcare, FinTech, AWS, AI/RAG & Secure Data Platforms
           </p>
 
           <div className="flex flex-row gap-4 justify-start">
             <button
-              className="bg-[#1f6feb] hover:bg-[#238636] text-white px-6 py-3 rounded-md font-semibold transition-colors"
+              className="bg-[#1f6feb]  hover:bg-[#0053d0] text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 ease-in-out  shadow-[0_0_15px_rgba(250,250,250,0.35)] hover:shadow-[0_0_20px_rgba(20,202,240,0.35)]"
               onClick={() => console.log("Viewing projects...")}
             >
               View Projects
             </button>
             <button
-              className="border border-[#30363d] text-[#58a6ff] hover:bg-[#30363d] px-6 py-3 rounded-md font-semibold transition-colors"
+              className="border border-[#30363d] text-[#58a6ff] hover:bg-[#1f6feb] hover:text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 ease-in-out "
               onClick={() => console.log("Downloading...")}
             >
               Download Resume

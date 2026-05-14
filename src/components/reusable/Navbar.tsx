@@ -71,11 +71,11 @@ const Navbar = ({
                 <Link
                   href={item.href}
                   onClick={() => handleNavClick(item)}
-                  className="group relative inline-block text-sm font-medium text-[#8b949e] transition-colors duration-200 hover:text-[#58a6ff] py-2 md:py-0 pb-1"
+                  className="group relative inline-block text-sm font-medium text-[#8b949e] transition-colors duration-200 hover:text-[#58a6ff] py-2 md:py-2"
                 >
                   {item.title}
                   {/* Sliding Underline Effect */}
-                  <span className="absolute bottom-0 left-0 h-[2px] w-0 bg-[#58a6ff] transition-[width] duration-300 ease-out group-hover:w-full" />
+                  <span className="absolute bottom-[3px] left-0 h-[2px] w-0 bg-[#58a6ff] transition-[width] duration-300 ease-out group-hover:w-full" />
                 </Link>
               </li>
             ))}

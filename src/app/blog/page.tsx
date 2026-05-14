@@ -13,7 +13,7 @@ const blogs: BlogPost[] = [
     title: "Production-Grade MCP Security Architecture",
     description:
       "MCP systems don't fail because teams lack awareness of security risks, but because enforcement layers are incorrectly or inconsistently implemented. This blog outlines a production-grade architecture where the LLM only suggests actions while the system enforces them...",
-    image: "/Images/work/work1.webp",
+    image: "/Images/work/work4.png",
     link: "#",
   },
   {
@@ -21,14 +21,14 @@ const blogs: BlogPost[] = [
       "Azure AI Foundry vs Copilot Studio vs Custom Architectures: How to Actually Choose the Right Agentic AI Approach",
     description:
       'In the Azure ecosystem, there isn\'t a single "best" way to build AI agents, there are different levels of abstraction. Microsoft Copilot Studio offers speed and powerful out-of-the-box orchestration, especially when combined with well-designed tools and MCP integrations...',
-    image: "/Images/work/work1.webp",
+    image: "/Images/work/work5.png",
     link: "#",
   },
   {
     title: "The Fastest Python Package Manager You'll Ever Use",
     description:
       "uv is a modern, high-performance Python packaging tool designed to replace traditional tools like pip and virtualenv. Built with speed and simplicity in mind, uv combines dependency management, virtual environments, and package installation into a single workflow...",
-    image: "/Images/work/work1.webp",
+    image: "/Images/work/work10.png",
     link: "#",
   },
   {
@@ -36,14 +36,14 @@ const blogs: BlogPost[] = [
       "A Step-by-Step Guide to Install and Run Cloud Code for Free (Using Ollama + Qwen3Coder 30B)",
     description:
       "In this step-by-step guide, you'll learn how to install and run Cloud Code locally for free using Ollama and the Qwen3Coder 30B large language model on macOS. We'll walk through installing Ollama, downloading the model, and launching your own local AI coding assistant...",
-    image: "/Images/work/work1.webp",
+    image: "/Images/work/work6.png",
     link: "#",
   },
   {
     title: "Digital FTEs: The Rise of AI as a Workforce Unit",
     description:
       "FTE is a business concept, not a technology. AI agents become FTEs only when they are treated like workers: fixed cost, defined responsibility, measurable output. This is now being called Digital FTEs or FTE AI Agents. Digital FTEs excel at structured, repetitive, high-volume work...",
-    image: "/Images/work/work1.webp",
+    image: "/Images/work/work7.png",
     link: "#",
   },
 ];
