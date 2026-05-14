@@ -2,8 +2,11 @@
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import GridPattern from "../ui/grid-pattern";
+import { useRouter } from "next/navigation";
 
 const Hero = () => {
+  const router = useRouter();
+
   return (
     <section className="bg-[#151C27] min-h-screen flex items-center px-5 py-10 md:py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 w-full">
@@ -17,17 +20,17 @@ const Hero = () => {
         {/* Left Content */}
         <div className="flex-1 text-left">
          <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6">
-            <span className="primary-gradient">Senior Full-Stack & Backend Engineer</span> <br />
+             <span className="primary-gradient">AI Engineer</span> <br />
             <span className="inline-block my-2">&</span> <br />
             <span className="text-[#58a6ff]">
               <Typewriter
                 options={{
                   strings: [
-                    "Healthcare",
-                    "FinTech",
-                    "AWS",
-                    "AI/RAG",
-                    "Secure Data Platforms"
+                     "Cloud AI Architect",
+                    "Full-Stack Developer",
+                    "Data Engineer",
+                    "ML Engineer",
+                    "Computer Vision Expert",
                   ],
                   autoStart: true,
                   loop: true,
@@ -51,7 +54,7 @@ const Hero = () => {
             </button>
             <button
               className="border border-[#30363d] text-[#58a6ff] hover:bg-[#1f6feb] hover:text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 ease-in-out "
-              onClick={() => console.log("Downloading...")}
+              onClick={() => router.push("/project")}
             >
               Download Resume
             </button>
