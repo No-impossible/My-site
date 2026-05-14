@@ -59,7 +59,7 @@ const Navbar = ({
 
         {/* Navigation Menu */}
         <nav
-          className={`absolute left-0 right-0 top-full overflow-hidden bg-[#0d1117] border-b border-white/5 transition-all duration-300 md:static md:bg-transparent md:border-none md:block ${
+          className={`absolute left-0 right-0 top-full overflow-hidden bg-[#010100] border-b border-white/5 transition-all duration-300 md:static md:bg-transparent md:border-none md:block ${
             isOpen
               ? "max-h-[400px] opacity-100"
               : "max-h-0 opacity-0 md:opacity-100"
