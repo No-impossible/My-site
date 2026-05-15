@@ -19,14 +19,14 @@ const Hero = () => {
         />
         {/* Left Content */}
         <div className="flex-1 text-left">
-         <h1 className="text-white text-5xl pt-16 lg:pt-0 md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6">
-             <span className="primary-gradient">AI Engineer</span> <br />
+          <h1 className="text-white text-5xl pt-16 lg:pt-0 md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6">
+            <span className="primary-gradient">AI Engineer</span> <br />
             <span className="inline-block my-2"></span> <br />
             <span className="text-[#58a6ff]">
               <Typewriter
                 options={{
                   strings: [
-                     "Cloud AI Architect",
+                    "Cloud AI Architect",
                     "Full-Stack Developer",
                     "Data Engineer",
                     "ML Engineer",
@@ -42,7 +42,8 @@ const Hero = () => {
           </h1>
 
           <p className="text-[#8b949e] text-lg md:text-xl leading-relaxed max-w-[500px] mb-10">
-           Senior Full-Stack & Backend Engineer | Healthcare, FinTech, AWS, AI/RAG & Secure Data Platforms
+            Senior Full-Stack & Backend Engineer | Healthcare, FinTech, AWS,
+            AI/RAG & Secure Data Platforms
           </p>
 
           <div className="flex flex-row gap-4 justify-start">
@@ -54,7 +55,7 @@ const Hero = () => {
             </button>
             <button
               className="border border-[#30363d] cursor-pointer text-[#58a6ff] hover:bg-[#1f6feb] hover:text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 ease-in-out "
-              onClick={() => console.log("Download Resume")}
+              onClick={() => window.open("/pdf/resume.pdf", "_blank")}
             >
               Download Resume
             </button>
