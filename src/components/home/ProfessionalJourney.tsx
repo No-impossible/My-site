@@ -4,9 +4,9 @@
 
 // const experiences = [
 //   {
-//     title: "Self-employed",
-//     company: "Self Employed",
-//     duration: "Apr 2025 - Present",
+//     title: "Lead Software Engineer",
+//     company: "Astra Byte Sync Company",
+//     duration: "Apr 2025 - Mar 2026",
 //     description:
 //       "Building healthcare, fintech, and SaaS platforms using AI, cloud, and full-stack technologies.",
 //     color: "#f59e0b", // Orange
