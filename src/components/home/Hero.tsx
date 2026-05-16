@@ -20,17 +20,17 @@ const Hero = () => {
         {/* Left Content */}
         <div className="flex-1 text-left">
           <h1 className="text-white text-5xl pt-16 lg:pt-0 md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6">
-            <span className="primary-gradient">AI Engineer</span> <br />
+            <span className="primary-gradient">Senior Software Engineer</span> <br />
             <span className="inline-block my-2"></span> <br />
             <span className="text-[#58a6ff]">
               <Typewriter
                 options={{
                   strings: [
-                    "Cloud AI Architect",
+                    "Healthcare IT",
                     "Full-Stack Developer",
                     "Data Engineer",
                     "ML Engineer",
-                    "Computer Vision Expert",
+                    "AI/RAG",
                   ],
                   autoStart: true,
                   loop: true,
